@@ -5,7 +5,5 @@ print(venue)
 audio_system = "microphones" if attendees > 50 else "no microphones"
 print(audio_system)
 food = input("Do you want vegetarian food?: (yes/no) ")
-if food == "yes":
- print("Veggie Delight Caterers for youuu!")
-else:
- print("Hey, Gourmet Meals Caterers for you!")
+caterers = "Vegie Delight" if food == "yes" else "Gourmet Meals" 
+print(caterers)
